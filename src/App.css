@@ -1,5 +1,6 @@
 * {
   background-color: #141414;
+  height: auto;
 }
 
 body {
@@ -9,4 +10,8 @@ body {
 .movie-app > .row {
   overflow-x: auto;
   flex-wrap: nowrap;
+}
+
+.row > * {
+  max-width: 350px;
 }
